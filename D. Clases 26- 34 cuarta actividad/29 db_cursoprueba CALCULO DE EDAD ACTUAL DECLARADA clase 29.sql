@@ -7,9 +7,9 @@ begin
   
   return edad;
   
-  exception
-  when others then 
-  edad := 0;
+exception
+when others then 
+edad := 0;
   
   return edad;
 end;
