@@ -1,9 +1,8 @@
 set serveroutput on;
-
 declare
 --DEFINIR UNA FUNCION DENTRO DE UN PLs
-      salarioPromedio number := 0;
-      empleado_salarioAlto varchar2(20):= ' ';
+        salarioPromedio number := 0;
+        empleado_salarioAlto varchar2(20):= ' ';
       
       --=====Obtener promedio======
       function obtener_promedio

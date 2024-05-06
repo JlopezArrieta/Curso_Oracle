@@ -8,7 +8,6 @@ begin
         return y;
      end if;
 end;
-
 --select nombre, fecha_nacimiento, salario, f_empleados(fecha_nacimiento, salario) from EMPLEADOS;
 
 

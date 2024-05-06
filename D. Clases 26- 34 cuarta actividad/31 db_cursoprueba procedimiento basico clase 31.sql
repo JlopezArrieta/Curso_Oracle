@@ -17,8 +17,7 @@ set serveroutput on;
 create or replace procedure actualizaFechaEmpleado
 as
 begin
-    update empleados set actualizado = to_date ('2024-5-1', 'yyyy-mm-dd' );
-    
+    update empleados set actualizado = to_date ('2024-5-1', 'yyyy-mm-dd' ); 
 end;
 
 execute actualizaFechaEmpleado;
@@ -34,6 +33,11 @@ end;
 
 execute aumentoPrecioLibros;
 select * from libros;
+
+
+
+
+
 
 
 

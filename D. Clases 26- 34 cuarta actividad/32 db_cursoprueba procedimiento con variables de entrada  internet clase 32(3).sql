@@ -3,7 +3,7 @@ create or replace procedure ingresoEmpleado(ID in number, nombre in varchar2, fe
 as
 --Procedimiento con variables ingreso de un empleado
   begin
-      insert into empleados values(ID, nombre, fecha, null, null);     
+       insert into empleados values(ID, nombre, fecha, null, null);     
   end;
 
 select * from empleados;

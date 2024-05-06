@@ -1,14 +1,9 @@
 create or replace function total_empleados
-return number
-
+   return number
 is
-    total number := 0;
-
+     total number := 0;
 begin
-    select count(*) into total from EMPLEADOS;
-    
-    return total;
-    
+     select count(*) into total from EMPLEADOS;
+     return total;
 end;
-
  --select total_empleados  from dual;

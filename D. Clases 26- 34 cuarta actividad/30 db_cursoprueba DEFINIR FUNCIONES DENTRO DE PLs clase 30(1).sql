@@ -24,8 +24,7 @@ declare
           nombre_empleado varchar2(30) := ' ';
       begin
           select nombre into nombre_empleado from empleados where salario =  (select max(salario) from empleados);
-          return nombre_empleado;
-          
+          return nombre_empleado;  
       end;
       --===Fin de salario alto===
       

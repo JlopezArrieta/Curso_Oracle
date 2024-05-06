@@ -7,7 +7,6 @@ SALARIO number(10,2),
 ACTUALIZADO date
 );
 
-
 --set define off;
 --me permite crear la tabla y de una insertar los datos a dicha tabla.
 insert into EMPLEADOS(ID, NOMBRE, FECHA_NACIMIENTO, SALARIO) 
