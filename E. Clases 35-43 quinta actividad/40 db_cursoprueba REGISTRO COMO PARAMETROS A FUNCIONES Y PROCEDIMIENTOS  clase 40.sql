@@ -31,7 +31,7 @@ begin
          imprimir_carro(toyota);
 end;
 
-
+--select * from empleados;
 
 
 
